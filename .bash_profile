@@ -46,3 +46,7 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 # complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# Include development tools and stuff
+[ -s "/Users/curtis/.dnx/dnvm/dnvm.sh" ] && . "/Users/curtis/.dnx/dnvm/dnvm.sh" # Load dnvm
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
