@@ -15,6 +15,7 @@ alias dp="cd ~/dev/polyvox"
 alias dr="cd ~/dev/realistschuckle"
 alias dc="cd ~/dev/curtissimo"
 # alias g="git"
+alias e="/usr/local/bin/emacsclient -t"
 alias gs='git status'
 alias h="history"
 alias j="jobs"
