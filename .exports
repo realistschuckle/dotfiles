@@ -29,3 +29,6 @@ export MANPAGER='less -X';
 
 # mono
 MONO_GAC_PREFIX="/usr/local"
+
+# local sbin from brew
+export PATH="/usr/local/sbin:$PATH"
