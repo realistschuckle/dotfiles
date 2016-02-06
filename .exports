@@ -31,4 +31,4 @@ export MANPAGER='less -X';
 MONO_GAC_PREFIX="/usr/local"
 
 # local sbin from brew
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:~/Library/Python/2.7/bin:$PATH"
